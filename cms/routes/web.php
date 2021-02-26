@@ -12,7 +12,20 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+//Practicum 1
+//Nomer 2 
 Route::get('/', function () {
-    return view('welcome');
+   echo "Selamat Datang";
 });
+//Nomer 3
+Route::get('/about', function () {
+    echo "Hello My Name Rajendra Rakha";
+ });
+Route::get('/article/{id}', function ($id) {
+    echo ("Ini Merupakan Halaman Article dengan id ".$id);
+
+ Route::get('/article/{id}', function ($id) {
+    echo ("Ini Merupakan Halaman Article dengan id ".$id);
+ });
+});
+
