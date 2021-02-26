@@ -26,6 +26,10 @@ Route::get('/article/{id}', function ($id) {
 
  Route::get('/article/{id}', function ($id) {
     echo ("Ini Merupakan Halaman Article dengan id ".$id);
+
+    Route::get('/article/{id}', function ($id) {
+        echo ("Ini Merupakan Halaman Article dengan id ".$id);   
  });
+});
 });
 
